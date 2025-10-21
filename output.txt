@@ -1,9 +1,15 @@
-states = AB,CD
-language = 0,1
-start_state = AB
-final_states = CD
+states = Q1Q7,Q2,Q6,Q0Q4,Q5
+inputs = 0,1
+start_state = Q0Q4
+final_states = Q2
 transitions = 
-AB,0,AB
-AB,1,CD
-CD,0,CD
-CD,1,CD
+Q1Q7,0,Q6
+Q1Q7,1,Q2
+Q2,0,Q0Q4
+Q2,1,Q2
+Q6,0,Q6
+Q6,1,Q0Q4
+Q0Q4,0,Q1Q7
+Q0Q4,1,Q5
+Q5,0,Q2
+Q5,1,Q6
