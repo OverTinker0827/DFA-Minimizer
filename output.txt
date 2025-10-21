@@ -1,0 +1,9 @@
+states = AB,CD
+language = 0,1
+start_state = AB
+final_states = CD
+transitions = 
+AB,0,AB
+AB,1,CD
+CD,0,CD
+CD,1,CD

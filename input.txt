@@ -1,0 +1,13 @@
+states = A,B,C,D
+language = 0,1
+start_state = A
+final_states = D,C
+transitions =
+A,0,B
+A,1,D
+B,0,A
+B,1,C
+C,0,D
+C,1,D
+D,0,D
+D,1,D
